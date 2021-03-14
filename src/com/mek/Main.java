@@ -16,10 +16,10 @@ public class Main {
         boolean isOr = (true || false) ? true : false; // 0 or 1 = 1
         boolean isAnd = (true && false) ? true : false; // 0 and 1 = 1
         System.out.println("isOr = " + isOr + " isAnd = " + isAnd);
-    displayHighScorePosition("MUSA", calculateHighScorePosition(1500));
-    displayHighScorePosition("ALİ",calculateHighScorePosition(900));
-    displayHighScorePosition("EMRE",calculateHighScorePosition(400));
-    displayHighScorePosition("MUSTAFA",calculateHighScorePosition(50));
+    displayHighScorePosition("MUSA KOCABAŞ", calculateHighScorePosition(1500));
+    displayHighScorePosition("ALİ SARIYER",calculateHighScorePosition(900));
+    displayHighScorePosition("EMİR ÖZSOY",calculateHighScorePosition(400));
+    displayHighScorePosition("ÖMER YILDIZ",calculateHighScorePosition(50));
 
 
 
