@@ -12,5 +12,12 @@ public class Main {
 		short shortTotal = (short)(byteValue+shortValue+intValue);
 		byte byteTotal = (byte)(byteValue+shortValue+intValue);
 		System.out.println("long value = "+ longValue + " short total = "+ shortTotal + " byte total = " + byteTotal);
+
+		boolean isOr = (true || false ) ? true : false;
+		boolean isAnd = (true && false) ? true : false;
+		System.out.println("isOr = " + isOr + " isAnd = "+ isAnd) ;
+
+
+
     }
 }
